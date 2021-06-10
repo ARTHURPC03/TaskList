@@ -1,12 +1,12 @@
 :root {
-  --blue: #273FAD;
+  --blue: #0625af;
   --green: #3FAD27;
   --red: 	#ad273f;
-  --background: #EBEBEB;
-  --shapes: #FFFFFF;
-  --text-title: #3D3D4D;
-  --text: #1C1C29;
-  --text-light: #A09CB1;
+  --background: #575757;
+  --shapes: #202020;
+  --text-title: #dfdfdf;
+  --text: #ffffff;
+  --text-light: #ebeaf1;
 }
 
 * {
@@ -16,6 +16,7 @@
 }
 
 body {
+  background: #0d0d0d;
   font: 16px "Poppins", Arial, sans-serif;
   color: #121214;
 }

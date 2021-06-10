@@ -18,13 +18,13 @@ export function TaskList() {
     if(newTaskTitle === "") {
       return
     }
-
     
     setTasks([...tasks, {
       id: Math.floor(Math.random() * 10000 + 1),
       title: newTaskTitle,
       isComplete: false,
     }])
+    setNewTaskTitle("")
   }
 
   function handleToggleTaskCompletion(id: number) {
